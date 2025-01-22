@@ -6,7 +6,7 @@ let tentativas = 1;
 // interação entre js e html
 
 function gerarNumero(){
-    let numeroEscolhido = parseInt(Math.random() * numeroLimite);
+    let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
     let quantidadeElementosLista = listaNumerosSorteados.length;
     
     if(quantidadeElementosLista == numeroLimite)
