@@ -1,12 +1,12 @@
 let listaNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumero();
 let tentativas = 1;
 
 // interação entre js e html
 
 function gerarNumero(){
-    let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
+    let numeroEscolhido = parseInt(Math.random() * numeroLimite);
     let quantidadeElementosLista = listaNumerosSorteados.length;
     
     if(quantidadeElementosLista == numeroLimite)
