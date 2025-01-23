@@ -42,7 +42,7 @@ function limpaCampos()
 
 function reiniciarJogo()
 {
-    let numeroSecreto = gerarNumero();
+    numeroSecreto = gerarNumero();
     limpaCampos();
     tentativas = 1;
     exibirMensagemInicial();
